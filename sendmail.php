@@ -1,14 +1,38 @@
 </php 
   use PHPMailer\PHPMailer\PHPMailer;
+  <!-- use PHPMailer\PHPMailer\SMTP; -->
   use PHPMailer\PHPMailer\Exception;
 
-  require 'phpmailer/src/Exception.php';
   require 'phpmailer/src/PHPMailer.php';
+  <!-- require 'phpmailer/src/SMTP.php'; -->
+  require 'phpmailer/src/Exception.php';
 
   $mail = new PHPMailer(true);
-  $mail->CharSet = 'UTF-8';
-  $mail->setLanguage('ru', 'phpmailer/language/');
-  $mail->isHTML(true);
+  
+  <!-- $mail->isSMTP();
+
+  $mail->Host   = 'smtp.yandex.ru';  // Адрес SMTP сервера
+  $mail->SMTPAuth   = true;          // Enable SMTP authentication
+  $mail->Username   = 'zholu.vlad2010';       // ваше имя пользователя (без домена и @)
+  $mail->Password   = 'Yheo372YD';    // ваш пароль
+  $mail->SMTPSecure = 'ssl';         // шифрование ssl
+  $mail->Port   = 465;               // порт подключения
+
+  $mail->setFrom('zholu.vlad2010@yandex.ru', 'Иван Иванов');    // от кого
+  $mail->addAddress('zholu,.vlad2010@gmail.com', 'Вася Петров'); // кому
+  
+  $mail->Subject = 'Тест';
+  $mail->msgHTML("<html><body>
+                  <h1>Здравствуйте!</h1>
+                  <p>Это тестовое письмо.</p>
+                  </html></body>");
+  // Отправляем
+  if ($mail->send()) {
+    echo 'Письмо отправлено!';
+  } else {
+    echo 'Ошибка: ' . $mail->ErrorInfo;
+  } -->
+ 
 
   //От кого письмо
   $mail->setFrom('zholu.vlad2010@yandex.ru', 'От клиента');
@@ -44,3 +68,4 @@ $response = ['message' => $message];
 header('Content-type: application/json');
 echo json_encode($response);
   
+?>
