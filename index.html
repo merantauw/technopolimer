@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Производство пластиковых изделий ООО "Технополимер"</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+
+<body>
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <div class="header__top-inner">
+          <a class="header__logo" href="#hero">
+            <img src="images/logo.png" alt="logo image">
+          </a>
+          <ul class="menu" id="menu">
+            <li class="menu__item active">
+              <a class="menu__link" href="#hero">
+                О нас
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#about">
+                Как мы работаем
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#projects">
+                Наши проекты
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#faq">
+                Часто спрашивают
+              </a>
+            </li>
+            <li class="menu__item-phone menu__item">
+              <a class="header__phone" href="tel:79920050942">+7 992 005-09-42</a>
+            </li>
+          </ul>
+          <a class="header__phone" href="tel:79920050942">+7 (992) 005-09-42</a>
+          <a href="#modal1" class="btn header__btn open_modal" type="button">Заказать звонок</a>
+          <div class="header__burger">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero__content">
+          <div class="hero__content--left">
+            <h1 class="hero__title">Литье изделий из пластмассы
+              под давлением на заказ</h1>
+            <p class="hero__text text">
+              • комфортные условия
+              <br>
+              • соблюдение всех требований
+            </p>
+          </div>
+          <form class="form hero__form" action="#" id="form">
+            <h3 class="hero__form-title text">
+              Оставить заявку на производство пластиковых изделий
+            </h3>
+            <input class="form__phone _req" id="formTel" name="tel" type="tel" placeholder="Ваш телефон" required>
+            <input class="form__email email _req" id="formEmail" name="email" type="email" placeholder="Ваш email">
+            <input class="form__name" type="text" id="formCompany" name="company"placeholder="Компания">
+            <button type="submit" class="btn form__btn">Оставьте заявку</button>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="title about__title">О нас</h2>
+        <div class="about__content">
+          <div class="about__img-box">
+            <img src="images/about.jpg" alt="Фото завода">
+          </div>
+          <div class="about__wrapper">
+            <p class="about__text text">
+              Рады приветствовать Вас на сайте производства пластиковых изделий ООО "Технополимер"
+            </p>
+            <p class="about__text text">
+              Наши услуги подойдут, если вы нуждаетесь в долгосрочной аренде оборудования и термопластавтоматов , но не
+              готовы запускать собственные производственные процессы.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="howto">
+      <div class="container">
+        <h2 class="howto__title title">
+          Есть два пути работы:
+        </h2>
+        <div class="howto__wrapper">
+          <div class="howto__group">
+            <div class="howto__group-item">
+              <h3 class="howto__item-title">У вас имеется пресс-форма и вы предоставляете её нам для дальнейшей работы.
+              </h3>
+            </div>
+            <div class="howto__group-item">
+              <h3 class="howto__item-title">У вас нет пресс-формы — мы можем изготовить её для Вас.</h3>
+            </div>
+          </div>
+        </div>
+        <div class="howto__box"><a href="#modal1" class="btn howto__btn open_modal">Получить консультацию<a></div>
+      </div>
+    </section>
+
+    <section class="materials" id="materials">
+      <div class="container">
+        <div class="materials__wrapper">
+          <h2 class="materials__title title">Материалы, с которыми мы работаем</h2>
+          <div class="materials__content">
+            <ul class="materials__list">
+              <li class="materials__item">
+                <span class="materials__span">ПНД</span>
+                <div class="materials__desc">
+                  <p class="materials__desc-title">Полиэтилен низкого давления</p>
+                  <p class="materials__desc-text">Применяется для изготовления: крышек к пластиковым бутылкам, фитингам,
+                    кухонным атрибутам, ёмкости для автохимии, фурнитуры для мебели, тарных ящиков</p>
+                </div>
+              </li>
+              <li class="materials__item">
+                <span class="materials__span">АБС</span>
+                <div class="materials__desc">
+                  <p class="materials__desc-title">АБС - пластик</p>
+                  <p class="materials__desc-text">Используется для изготовления корпусов и деталей компьютеров,
+                    электроинструментов, бытовой и офисной техники; автомобилестроение: бамперы, решётки радиаторов,
+                    панели приборов, колпаки и пр.
+                  </p>
+                </div>
+              </li>
+              <li class="materials__item">
+                <span class="materials__span">ПК</span>
+                <div class="materials__desc">
+                  <p class="materials__desc-title">Поликарбонат</p>
+                  <p class="materials__desc-text">Используется для производства посуды, тары для хранения и
+                    транспортировки лекарств, корпуса приборов, изолирующие материалы и даже протезы
+                  </p>
+                </div>
+              </li>
+              <li class="materials__item">
+                <span class="materials__span">ПП</span>
+                <div class="materials__desc">
+                  <p class="materials__desc-title">Полипропилен</p>
+                  <p class="materials__desc-text">Материал для производства плёнок (особенно упаковочных), мешков, тары,
+                    труб, деталей технической аппаратуры, пластиковых стаканчиков, предметов домашнего обихода и т. д.
+                  </p>
+                </div>
+              </li>
+              <li class="materials__item">
+                <span class="materials__span">ПА</span>
+                <div class="materials__desc">
+                  <p class="materials__desc-title">Полиамид</p>
+                  <p class="materials__desc-text">Используется для создания различных изделий конструкционного и
+                    электроизоляционного назначения
+                  </p>
+                </div>
+              </li>
+              <li class="materials__item">
+                <span class="materials__span">ПЭ</span>
+                <div class="materials__desc">
+                  <p class="materials__desc-title">Полиэтилен</p>
+                  <p class="materials__desc-text">Используется для изготовления направительных лент, дорожек цепных
+                    устройств, различных деталей скольжения, винтов, звездочек, шкивов, смахивающих устройств</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="machines">
+      <div class="container">
+        <h2 class="machines__title title">Наши термопластавтоматы и выдувное оборудование</h2>
+        <div class="machines__wrapper">
+          <ul class="machines__list">
+
+            <li class="machines__item">
+              <h3 class="machines__item-title">Hyundai серии EDIA 200</h3>
+              <div class="machines__item-wrapper">
+                <div class="machines__item-box">
+                  <ol class="machines__item-list">
+                    <li>Усилие смыкания – 200 т</li>
+                    <li>Объем впрыска – 389-693 см3</li>
+                    <li>Скорость впрыска -176-313 гр/сек</li>
+                  </ol>
+                </div>
+                <div class="machines__item-img">
+                  <img src="images/machines-1.png" alt="Термопластавтомат Hyundai">
+                </div>
+              </div>
+            </li>
+
+            <li class="machines__item">
+              <h3 class="machines__item-title">Hyundai серии EDIA 200</h3>
+              <div class="machines__item-wrapper">
+                <div class="machines__item-box">
+                  <ol class="machines__item-list">
+                    <li>Усилие смыкания – 200 т</li>
+                    <li>Объем впрыска – 389-693 см3</li>
+                    <li>Скорость впрыска -176-313 гр/сек</li>
+                  </ol>
+                </div>
+                <div class="machines__item-img">
+                  <img src="images/machines-1.png" alt="Термопластавтомат Hyundai">
+                </div>
+              </div>
+            </li>
+
+            <li class="machines__item">
+              <h3 class="machines__item-title">Hyundai серии EDIA 200</h3>
+              <div class="machines__item-wrapper">
+                <div class="machines__item-box">
+                  <ol class="machines__item-list">
+                    <li>Усилие смыкания – 200 т</li>
+                    <li>Объем впрыска – 389-693 см3</li>
+                    <li>Скорость впрыска -176-313 гр/сек</li>
+                  </ol>
+                </div>
+                <div class="machines__item-img">
+                  <img src="images/machines-1.png" alt="Термопластавтомат Hyundai">
+                </div>
+              </div>
+            </li>
+
+            <li class="machines__item">
+              <h3 class="machines__item-title">Hyundai серии EDIA 200</h3>
+              <div class="machines__item-wrapper">
+                <div class="machines__item-box">
+                  <ol class="machines__item-list">
+                    <li>Усилие смыкания – 200 т</li>
+                    <li>Объем впрыска – 389-693 см3</li>
+                    <li>Скорость впрыска -176-313 гр/сек</li>
+                  </ol>
+                </div>
+                <div class="machines__item-img">
+                  <img src="images/machines-1.png" alt="Термопластавтомат Hyundai">
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+        <p class="machines__text">Не нашли нужный?</p>
+        <p class="machines__text">Мы готовы расширить свой парк оборудования в индивидуальном порядке в зависимости от
+          ваших потребностей в изделиях из пластмасс</p>
+      </div>
+    </section>
+
+    <section class="portfolio" id="projects">
+      <div class="container">
+        <h2 class="title portfolio__title">Наши изделия</h2>
+        <div class="portfolio__slider slider">
+          <ul class="slider__box">
+            <div class="slider__img-box">
+              <img src="images/portfolio-1.jpg" alt="Изделие 1">
+            </div>
+            <div class="slider__img-box">
+              <img src="images/portfolio-2.jpg" alt="Изделие 2">
+            </div>
+            <div class="slider__img-box">
+              <img src="images/portfolio-3.jpg" alt="Изделие 3">
+            </div>
+            <div class="slider__img-box">
+              <img src="images/portfolio-4.jpg" alt="Изделие 4">
+            </div>
+            <div class="slider__img-box">
+              <img src="images/portfolio-5.jpg" alt="Изделие 5">
+            </div>
+            <div class="slider__img-box">
+              <img src="images/portfolio-6.jpg" alt="Изделие 6">
+            </div>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits" id="benefits">
+      <div class="container">
+        <h2 class="benefits__title title">Наши преимущества</h2>
+        <ul class="benefits__list">
+          <li class="benefits__item">
+            <h3 class="benefits__item-title">• Новейшее оборудование </h3>
+          </li>
+          <li class="benefits__item">
+            <h3 class="benefits__item-title">• Высококвалифицированные специалисты</h3>
+          </li>
+          <li class="benefits__item">
+            <h3 class="benefits__item-title">• Индивидуальный подход</h3>
+          </li>
+          <li class="benefits__item">
+            <h3 class="benefits__item-title">• Стабильность в исполнении заказа </h3>
+          </li>
+          <li class="benefits__item">
+            <h3 class="benefits__item-title">• Внутрицеховая логистика</h3>
+          </li>
+          <li class="benefits__item">
+            <h3 class="benefits__item-title">• Изготовление точно в срок </h3>
+          </li>
+        </ul>
+        <h3 class="benefits__item--res">Комфортное долгосрочное сотрудничество!</h3>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="container">
+        <h2 class="title faq__title">Часто задаваемые вопросы</h2>
+        <ul class="faq__list">
+          <li class="faq__item">
+            <p class="faq__item-title">Обязательно везти своё сырьё?</p>
+            <p class="faq__item-desc">
+              Нет, не обязательно. Мы можем сами найти поставщика качественного сырья, наиболее подходящего под ваш
+              проект с минимально возможной стоимостью.
+              <br><br>
+              *Также при наличии эталонного образца мы можем сделать химический анализ вашего изделия и подобрать
+              максимально близкий тип и марку сырья, используемые в исходном изделии.
+            </p>
+          </li>
+          <li class="faq__item">
+            <p class="faq__item-title">По какой технологии вы работаете?</p>
+            <p class="faq__item-desc">
+              Мы работаем по технологии исключительно литья пластмасс под давлением.
+              Литьевые машины, которые находятся в нашем парке - термопластавтоматы.
+              Они предназначены для работы с АБС, ПНД, ПП, ПЭ, ПК, ПС, ПА и делают штучные изделия из пластика массой до
+              650 гр.
+              Они не предназначены для обработки и выпуска следующих видов продукции:
+              Трубы
+              Профильные изделия
+              Полимерный/металлический лист
+              Резиновые изделия
+              Силиконовые изделия
+              Изделия из металлов
+            </p>
+          </li>
+          <li class="faq__item">
+            <p class="faq__item-title">Как снизить себестоимость сырья?</p>
+            <p class="faq__item-desc">
+              Для некоторых типов изделий, особенно те, которые являются расходным материалом нет специальных требований
+              по ГОСТ/ТУ, также для ряда изделий совсем не обязательно соблюдать строгие требования, например, как к
+              пищевым или медицинским изделиям.
+              <br><br>
+              Соответственно, в таком случае мы предлагаем вам делать вашу продукцию из вторичного сырья, чтобы
+              удешевить конечную стоимость за одну единицу продукта и всей партии в целом
+
+            </p>
+          </li>
+          <li class="faq__item">
+            <p class="faq__item-title">У меня нет пресс-формы, что мне делать?</p>
+            <p class="faq__item-desc">
+              В случае если у вас имеется чертёж, 3Д-модель или эталонный образец, то на основе этих данных и ваших
+              планов производства мы можем рассчитать, изготовить и привезти рентабельную и надёжную пресс-форму.
+              <br><br>
+              После изготовления тестовых образцов мы высылаем их вам для полного согласования. Затем привозим
+              пресс-форму к нам в цех в Вологду и начинаем производить вашу продукцию
+            </p>
+          </li>
+          <li class="faq__item">
+            <p class="faq__item-title">Сколько будет стоить пресс-форма?</p>
+            <p class="faq__item-desc">
+              Стоимость всегда индивидуальная, т.к. зависит от параметров изделия, производственных объёмов, сырья. Из
+              нашей практики, стоимость самой простой пресс-формы с холодным каналом начинается от 300 тыс.руб.
+              <br><br>
+              Что влияет на стоимость пресс-формы:
+              Тип металла и его обработка. Мы используем в своих пресс-формах исключительно легированные стали. Не
+              работаем с алюминиевыми или силиконовыми формами
+              Гарантированное количество смыканий пресс-формы до её первой плановой обработки. Мы предлагаем пресс-формы
+              с гарантией 300 тыс., 500 тыс., и 1 млн циклов
+              <br><br>
+              Гнездность пресс-формы. Исходя из объёма выпуска необходимого изделия мы можем предложить вам 1,2,4 и
+              более гнёздные пресс-формы. Чем больше гнёзд (мест размещения изделия), тем быстрее изготовиться партия,
+              но тем дороже оснастка
+              <br><br>
+              Холодно- и горячеканальные пресс-формы. В случае с холодноканальными у вас всегда будет оставаться литник
+              (небольшой пластмассовый хвостик, который нужно удалять механически или вручную) такие пресс-формы
+              дешевле, но у них больше отходов. У горячеканальных не остаётся литника - 100% целевой расход сырья, при
+              этом они стоят на порядок дороже холодноканальных
+            </p>
+          </li>
+          <li class="faq__item">
+            <p class="faq__item-title">Изделия не подходят под оборудование, что мне делать?</p>
+            <p class="faq__item-desc">
+              Если необходимая крупная партия изделий или постоянные объемы заказов, то мы готовы рассмотреть расширение
+              парка под ваш заказ. ТПА будет подираться с запасом по мощности для возможного дальнейшего наращивания
+              ваших объёмов
+            </p>
+          </li>
+          <li class="faq__item">
+            <p class="faq__item-title">Я могу оставить пресс-форму у вас на хранении?</p>
+            <p class="faq__item-desc">
+              При использовании технологии литья пластмасс под давлением существует ограничение в минимальном тираже.
+              Это связано с некоторой сложностью запуска цикла.
+              <br><br>
+              Чтобы запустить процесс производства необходимо потратить время на разогрев литьевой машины, установку
+              пресс-формы, наладку циклов и калибровку настроек для требуемого качества изделия.
+              <br><br>
+              Поэтому если вам необходимо сделать несколько десятков изделий с коротким циклом, это будет не
+              выгодно.
+              <br><br>
+              Для того, чтобы сделать прототип изделия и тестовые образцы лучше использовать более дешевые технологии.
+            </p>
+          </li>
+          <li class="faq__item">
+            <p class="faq__item-title">Какие сроки реализации проекта?</p>
+            <p class="faq__item-desc">
+              1. Мы исходя из ваших планов, планируемого изделия и возможности наших ТПА делаем расчёт проекта - около 4-7 дней.
+              <br><br>
+              2. Готовится 3Д-модель и она же проверяется на пролив в специальной программе-прогнозаторе - 4
+              недели
+              <br><br>
+              3. Изготавливается пресс-форма и проходят её испытания + вам отправляется эталонный образец - 2-3
+              месяца
+              <br><br>
+              4. Пресс-форма доставляется Авиа (2-3 недели) или ЖД транспортом (2-3 месяца)<br><br>
+              При самом оптимальном стечении обстоятельств старт производства с учётом изготовления пресс-формы
+              составляет 4-5 месяцев. В среднем со всеми согласованиями 5-7 месяцев
+              <br><br>
+              Расчёт производства нужного количества мы просчитываем и сообщаем вам заранее. Его стоит прибавить к срокам изготовления и доставки пресс-формы.
+            </p>
+          </li>
+        </ul>
+
+        <form class="form faq__form" action="#">
+          <h3 class="subtitle faq__form-title">
+            Оставьте заявку на расчёт стоимости и мы свяжемся с вами в течение рабочего дня
+          </h3>
+          <div class="form__inputs">
+            <input class="form__name" type="text" placeholder="Ваше имя">
+            <input class="form__phone" type="tel" name="tel" placeholder="Ваш телефон" required>
+            <input class="form__email email" type="email" placeholder="Ваш email (необязательно)">
+            <input class="form__company" type="text" placeholder="Компания">
+          </div>
+          <button class="btn faq__form-btn">Получить консультацию</button>
+          <p class="form__label">*Нажимая на кнопку, вы соглашаетесь на обработку персональных данных</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__socials">
+          <a class="footer__logo" href="#hero">
+            <img src="images/logo.png" alt="Логотип">
+            <p class="text">ООО "Технополимер"</p>
+          </a>
+        </div>
+        <div class="footer__phone">
+          <p class="text">Телефон для связи:</p>
+          <a href="tel:79920050942">+7 (992) 005-09-42</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="modal1" class="modal_div">
+    <span class="modal_close">X</span>
+    <form id="form" class="form modal__form" action="#">
+      <h3 class="subtitle modal__form-title">
+        Оставить заявку на производство пластиковых изделий
+      </h3>
+      <div class="form__inputs modal__box">
+        <input class="form__phone modal__phone" type="tel" name="tel"
+        id="formTel" placeholder="Ваш номер" required>
+        <input class="form__email email modal__email" id="formEmail" name="email" type="email" placeholder="Ваш email (необязательно)">
+        <input class="form__company modal__company" id="formCompany" name="company" type="text" placeholder="Компания">
+      </div>
+      <button class="btn modal__form-btn">Получить консультацию</button>
+      <p class="form__label modal__label">*Нажимая на кнопку, вы соглашаетесь на обработку персональных данных</p>
+    </form>
+  </div>
+  <div id="overlay"></div>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
